@@ -3,7 +3,7 @@
 Plugin Name: bhCalendarchives
 Plugin URI: http://blog.burninghat.net.
 Description: Replace the archives widget by a wonderful monthly table
-Version: 0.1
+Version: 0.1.1
 Author: Emmanuel Ostertag alias burningHat
 Author URI: http://blog.burninghat.net
 License: GPL
@@ -29,7 +29,7 @@ Copyright 2008  Emmanuel Ostertag alias burningHat (email : webmaster _at_ burni
 function bhCalendarchives(){
 	global $wpdb;
 ?>
-<table id="bhCalendarchives" summary="liens vers les archives du blog">
+<table id="bhCalendarchives" summary="<?php _e('links to the blog archives', 'bhCalendarchives'); ?>">
 	<tbody>
 <?php
 	
@@ -75,21 +75,59 @@ function bhCalendarchives_widget_init(){
 		
 	function bhCalendarchives_widget($args){
 		extract($args);
-		//$title = __('Archives');
-		echo $before_widget . $before_title . __('Archives') . $after_title;
+		$options = get_option('widget_archives');
+		$title = empty($options['title']) ? __('Archives', 'bhCalendarchives') : apply_filters('widget_title', $options['title']);
+		
+		echo $before_widget;
+		echo $before_title . $title . $after_title;
 		bhCalendarchives();
 		echo $after_widget;
+	}
+	
+	function bhCalendarchives_widget_control(){
+		$options = $newoptions = get_option('widget_archives');
+		
+		if ( $_POST['archives-submit'] ){
+			$newoptions['title'] = strip_tags(stripslashes($_POST["archives-title"]));
+		}
+		if ( $options != $newoptions ){
+			$options = $newoptions;
+			update_option('widget_archives', $options);
+		}
+		
+		$title = attribute_escape($options['title']);
+?>
+				<p><label for="archives-title"><?php _e('Title:', 'bhCalendarchives'); ?> <input class="widefat" id="archives-title" name="archives-title" type="text" value="<?php echo $title; ?>" /></label></p>
+				<input type="hidden" id="archives-submit" name="archives-submit" value="1" />
+<?php
+		
 	}
 		
 	function bhCalendarchives_widget_register(){
 		$widget_ops = array('classname' => 'widget_bhcalendarchives', 'description' => __( "A nicely table to display your monthly archive of your blog's posts") );
-		wp_register_sidebar_widget('archives', __('Archives'), 'bhCalendarchives_widget', $widget_ops);
+		wp_register_sidebar_widget('archives', __('Archives', 'bhCalendarchives'), 'bhCalendarchives_widget', $widget_ops);
 		//wp_register_widget_control('archives', __('Archives'), 'wp_widget_archives_control' );
 		unregister_widget_control('archives');
+		wp_register_widget_control('archives', __('Archives', 'bhCalendarchives'), 'bhCalendarchives_widget_control');
 	}
 	// Launch widget
 	bhCalendarchives_widget_register();
 }
 
+// localization
+function bhCalendarchives_textdomain(){
+	$locale = get_locale();
+	if ( empty($locale) ){
+		$locale = 'en_US';
+	} else {
+		$path = basename(str_replace('\\', '/', dirname(__FILE__)));
+		$path = ABSPATH.PLUGINDIR.'/'.$path;
+		$mofile = $path.'/'.$locale.'.mo';
+		load_textdomain('bhCalendarchives', $mofile);
+	}
+}
+
+// Run
+add_action('init', 'bhCalendarchives_textdomain');
 add_action('widgets_init', 'bhCalendarchives_widget_init');
 ?>
