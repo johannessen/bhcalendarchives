@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: bhCalendarchives
-Plugin URI: http://blog.burninghat.net.
+Plugin URI: http://blog.burninghat.net/2008/08/15/plugin-wordpress-bhcalendarchives/
 Description: Replace the archives widget by a wonderful monthly table
-Version: 0.1.1
+Version: 0.1.2
 Author: Emmanuel Ostertag alias burningHat
 Author URI: http://blog.burninghat.net
 License: GPL
