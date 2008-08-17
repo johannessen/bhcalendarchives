@@ -4,7 +4,7 @@ Donate Link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=webma
 Tags: archive, archives, widget, sidebar
 Requires at least: 2.5
 Tested up to: 2.6
-Stable tag: 0.1.1
+Stable tag: 0.1.2
 
 Replace the archives widget by a wonderful monthly table
 
@@ -54,6 +54,7 @@ NB: veillez à utiliser un thème avec une large sidebar si vous voulez y insér
 
 == Changelog ==
 
+* 0.1.2 - added the Dutch translation
 * 0.1.1 - adding option in the "Presentation / Widgets" menu to change the title of the widget 'Archives'. Plugin now ready to internationalization
 * 0.1 - initial release
 
