@@ -2,9 +2,9 @@
 /*
 Plugin Name: bhCalendarchives
 Plugin URI: http://blog.burninghat.net/2008/08/15/plugin-wordpress-bhcalendarchives/
-Description: Replace the archives widget by a wonderful monthly table
-Version: 0.2
-Author: Emmanuel Ostertag alias burningHat and with the contribution of Jérémy Verda (http://blog.v-jeremy.net/)
+Description: Replace the archives widget by a wonderful monthly table. Thanks to Jérémy Verda (http://blog.v-jeremy.net/) for Dutch translation.
+Version: 0.3
+Author: Emmanuel Ostertag aka burningHat
 Author URI: http://blog.burninghat.net
 License: GPL
 
@@ -79,6 +79,18 @@ function bhCalendarchives($display = 'num'){
 					12 => __('Dec', 'bhCalendarchives')
 				  );
 	}
+	
+	// get number of posts by month.
+	$query = "SELECT YEAR(post_date), MONTH(post_date), COUNT(*)
+				FROM {$wpdb->posts}
+				WHERE post_type = 'post' AND post_status = 'publish'
+				GROUP BY YEAR(post_date), MONTH(post_date)";
+	$num_posts = $wpdb->get_results($wpdb->prepare($query), ARRAY_A);
+
+	for ( $x = 0; $x <= count($num_posts); $x++ ){
+		$num_posts_this_month[$num_posts[$x]['YEAR(post_date)']][$num_posts[$x]['MONTH(post_date)']] = $num_posts[$x]['COUNT(*)'];
+	}
+
 ?>
 <table id="bhCalendarchives" summary="<?php _e('links to the blog archives', 'bhCalendarchives'); ?>">
 	<tbody>
@@ -98,7 +110,7 @@ function bhCalendarchives($display = 'num'){
 	 for ( $x = 1 ; $x <= 12 ; $x++ ){
 	 	if ( array_key_exists($x, $monthwithposts) ){
 ?>
-			<td><a href="<?php echo get_month_link($year, $x); ?>" title="<?php printf(__('%1$s %2$s archives'), $full_months[$x], $year); ?>"><?php echo $display_months[$x]; ?></a></td>
+			<td><a href="<?php echo get_month_link($year, $x); ?>" title="<?php printf(__('%1$s %2$s in %3$s %4$s', 'bhCalendarchives'), $num_posts_this_month[$year][$x], ($num_posts_this_month[$year][$x] > 1) ? __('posts', 'bhCalendarchives') : __('post', 'bhCalendarchives'), $year, $full_months[$x]) ?>"><?php echo $display_months[$x]; ?></a></td>
 <?php
 	 	} else {
 ?>

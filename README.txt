@@ -1,16 +1,26 @@
 === bhCalendarchives ===
-Contributors: Emmanuel Ostertag aka burningHat, Jérémy Verda
+Contributors: Emmanuel Ostertag aka burningHat
 Donate Link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=webmaster%40burninghat%2enet&item_name=webmaster%20_at_%20burninghat%2enet&item_number=plugin%20WordPress%3a%20bhCalendarchives&no_shipping=0&no_note=1&tax=0&currency_code=CHF&lc=FR&bn=PP%2dDonationsBF&charset=UTF%2d8
 Tags: archive, archives, widget, sidebar
 Requires at least: 2.5
-Tested up to: 2.6
-Stable tag: 0.2
+Tested up to: 2.7.1
+Stable tag: 0.3
 
 Replace the archives widget by a wonderful monthly table
 
 == Description ==
 
+= English =
+
 This plugin replace the original archives widget by a wonderful monthly table
+
+Translate in Dutch by Jérémy Verda (http://blog.v-jeremy.net/)
+
+= Français =
+
+Ce plugin remplace le widget original des archives par un superbe tableau mensuel.
+
+Traduit en néerlandais par Jérémy Verda (http://blog.v-jeremy.net/) 
 
 == Installation ==
 
@@ -56,6 +66,7 @@ NB: veillez à utiliser un thème avec une large sidebar si vous voulez y insér
 
 == Changelog ==
 
+* 0.3 - now the number of posts appears when you roll-over a month
 * 0.2 - now you can display the months in two digits or first letter or first three letters
 * 0.1.2 - added the Dutch translation
 * 0.1.1 - adding option in the "Presentation / Widgets" menu to change the title of the widget 'Archives'. Plugin now ready to internationalization

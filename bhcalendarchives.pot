@@ -2,198 +2,207 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bhCalendarchives\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-08-19 21:28+0100\n"
+"POT-Creation-Date: 2009-03-08 18:14+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: burningHat <webmaster@burninghat.net>\n"
-"Language-Team: burninghate <webmaster@burninghat.net>\n"
+"Language-Team: burninghat <webmaster@burninghat.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; nplural=n>1\n"
-"X-Poedit-Language: french\n"
+"Plural-Forms: nplurals=2;plural=n>1\n"
+"X-Poedit-Language: French\n"
 "X-Poedit-Country: SWITZERLAND\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;_c\n"
-"X-Poedit-Basepath: .\n"
-"X-Poedit-SearchPath-0: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives\n"
+"X-Poedit-Basepath: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/\n"
+"X-Poedit-SearchPath-0: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk\n"
+"X-Poedit-SearchPath-1: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives\n"
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:34
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:34
 msgid "January"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:35
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:35
 msgid "February"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:36
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:36
 msgid "March"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:37
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:37
 msgid "April"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:38
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:72
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:38
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:72
 msgid "May"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:39
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:39
 msgid "June"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:40
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:40
 msgid "July"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:41
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:41
 msgid "August"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:42
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:42
 msgid "October"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:43
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:43
 msgid "September"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:44
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:44
 msgid "November"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:45
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:45
 msgid "December"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:53
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:58
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:59
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:53
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:58
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:59
 msgid "J"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:54
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:54
 msgid "F"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:55
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:57
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:55
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:57
 msgid "M"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:56
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:60
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:56
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:60
 msgid "A"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:61
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:61
 msgid "S"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:62
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:62
 msgid "O"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:63
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:63
 msgid "N"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:64
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:64
 msgid "D"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:68
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:68
 msgid "Jan"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:69
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:69
 msgid "Feb"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:70
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:70
 msgid "Mar"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:71
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:71
 msgid "Apr"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:73
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:73
 msgid "Jun"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:74
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:74
 msgid "Jul"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:75
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:75
 msgid "Aug"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:76
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:76
 msgid "Sep"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:77
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:77
 msgid "Oct"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:78
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:78
 msgid "Nov"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:79
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:79
 msgid "Dec"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:83
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:95
 msgid "links to the blog archives"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:101
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:113
 #, php-format
-msgid "%1$s %2$s archives"
+msgid "%1$s %2$s in %3$s %4$s"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:130
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:191
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:194
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:113
+msgid "posts"
+msgstr ""
+
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:113
+msgid "post"
+msgstr ""
+
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:142
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:203
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:206
 msgid "Archives"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:160
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:172
 msgid "Title:"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:161
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:173
 msgid "How to display archives"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:163
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:175
 msgid "Numeric"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:164
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:176
 msgid "First letter"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:165
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:177
 msgid "First three letters"
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:169
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:181
 msgid "<strong>Numeric:</strong> numeric representation of a mon with leading zeros like \"01\" for \"January\""
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:170
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:182
 msgid "<strong>First letter:</strong> display only the first letter of the month name, like \"J\" for \"January\""
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:171
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:183
 msgid "<strong>First three letters:</strong> display a short textual representation of a month, three letters like \"Jan\" for \"January\""
 msgstr ""
 
-#: /Users/burninghat/htdocs/wp_dev/wp-content/plugins/bhcalendarchives/bhcalendarchives.php:190
+#: /Users/burninghat/htdocs/wp_dev/plugins/bhcalendarchives/trunk/bhcalendarchives.php:202
 msgid "A nicely table to display your monthly archive of your blog's posts"
 msgstr ""
 
