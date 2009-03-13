@@ -3,7 +3,7 @@
 Plugin Name: bhCalendarchives
 Plugin URI: http://blog.burninghat.net/2008/08/15/plugin-wordpress-bhcalendarchives/
 Description: Replace the archives widget by a wonderful monthly table. Thanks to Jérémy Verda (http://blog.v-jeremy.net/) for Dutch translation and to Morgan (http://morgan.jerabek.fr/) for Spanish translation.
-Version: 0.3.1
+Version: 0.3.2
 Author: Emmanuel Ostertag aka burningHat
 Author URI: http://blog.burninghat.net
 License: GPL
