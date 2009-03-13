@@ -4,7 +4,7 @@ Donate Link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=webma
 Tags: archive, archives, widget, sidebar
 Requires at least: 2.5
 Tested up to: 2.7.1
-Stable tag: 0.3
+Stable tag: 0.3.1
 
 Replace the archives widget by a wonderful monthly table
 
@@ -14,7 +14,7 @@ Replace the archives widget by a wonderful monthly table
 
 This plugin replace the original archives widget by a wonderful monthly table
 
-Translate in Dutch by Jérémy Verda (http://blog.v-jeremy.net/)
+Translate in Dutch by Jérémy Verda (http://blog.v-jeremy.net/) and in Spanish by Morgan (http://morgan.jerabek.fr/)
 
 = Français =
 
