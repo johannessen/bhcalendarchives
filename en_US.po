@@ -1,0 +1,231 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bhCalendarchives\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-01 13:55+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: burningHat <webmaster@burninghat.net>\n"
+"Language-Team: burninghat <webmaster@burninghat.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=n>1\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:39
+msgid "January_full"
+msgstr "January"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:40
+msgid "February_full"
+msgstr "February"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:41
+msgid "March_full"
+msgstr "March"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:42
+msgid "April_full"
+msgstr "April"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:43
+msgid "May_full"
+msgstr "May"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:44
+msgid "June_full"
+msgstr "June"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:45
+msgid "July_full"
+msgstr "July"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:46
+msgid "August_full"
+msgstr "August"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:47
+msgid "September_full"
+msgstr "September"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:48
+msgid "October_full"
+msgstr "October"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:49
+msgid "November_full"
+msgstr "November"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:50
+msgid "December_full"
+msgstr "December"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:58
+msgid "January_tiny"
+msgstr "J"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:59
+msgid "February_tiny"
+msgstr "F"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:60
+msgid "March_tiny"
+msgstr "M"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:61
+msgid "April_tiny"
+msgstr "A"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:62
+msgid "May_tiny"
+msgstr "M"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:63
+msgid "June_tiny"
+msgstr "J"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:64
+msgid "July_tiny"
+msgstr "J"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:65
+msgid "August_tiny"
+msgstr "A"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:66
+msgid "September_tiny"
+msgstr "S"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:67
+msgid "October_tiny"
+msgstr "O"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:68
+msgid "November_tiny"
+msgstr "N"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:69
+msgid "December_tiny"
+msgstr "D"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:73
+msgid "January_short"
+msgstr "Jan"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:74
+msgid "February_short"
+msgstr "Feb"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:75
+msgid "March_short"
+msgstr "Mar"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:76
+msgid "April_short"
+msgstr "Apr"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:77
+msgid "May_short"
+msgstr "May"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:78
+msgid "June_short"
+msgstr "Jun"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:79
+msgid "July_short"
+msgstr "Jul"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:80
+msgid "August_short"
+msgstr "Aug"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:81
+msgid "September_short"
+msgstr "Sep"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:82
+msgid "October_short"
+msgstr "Oct"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:83
+msgid "November_short"
+msgstr "Nov"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:84
+msgid "December_short"
+msgstr "Dec"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:100
+msgid "links to the blog archives"
+msgstr "links to the blog archives"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:118
+#, php-format
+msgid "%1$s %2$s in %3$s %4$s"
+msgstr "%1$s %2$s in %3$s %4$s"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:118
+msgid "posts"
+msgstr "posts"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:118
+msgid "post"
+msgstr "post"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:147
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:218
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:221
+msgid "Archives"
+msgstr "Archives"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:180
+msgid "Title:"
+msgstr "Title:"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:181
+msgid "How to display archives"
+msgstr "How to display archives"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:183
+msgid "Numeric"
+msgstr "Numeric"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:184
+msgid "First letter"
+msgstr "First letter"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:185
+msgid "First three letters"
+msgstr "First three letters"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:189
+msgid "<strong>Numeric:</strong> numeric representation of a mon with leading zeros like \"01\" for \"January\""
+msgstr "<strong>Numeric:</strong> numeric representation of a mon with leading zeros like \"01\" for \"January\""
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:190
+msgid "<strong>First letter:</strong> display only the first letter of the month name, like \"J\" for \"January\""
+msgstr "<strong>First letter:</strong> display only the first letter of the month name, like \"J\" for \"January\""
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:191
+msgid "<strong>First three letters:</strong> display a short textual representation of a month, three letters like \"Jan\" for \"January\""
+msgstr "<strong>First three letters:</strong> display a short textual representation of a month, three letters like \"Jan\" for \"January\""
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:195
+msgid "Follow or nofollow link ?"
+msgstr "Follow or nofollow link ?"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:197
+msgid "Nofollow"
+msgstr "Nofollow"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:198
+msgid "Follow"
+msgstr "Follow"
+
+#: /Users/burninghat/htdocs/wp_dev/dev/wp-content/plugins/trunk/bhcalendarchives.php:217
+msgid "A nicely table to display your monthly archive of your blog's posts"
+msgstr "A nicely table to display your monthly archive of your blog's posts"
+
