@@ -25,6 +25,16 @@ Copyright 2008  Emmanuel Ostertag alias burningHat (email : webmaster _at_ burni
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
+// hacked by Arne Johannessen 2009-10-01:
+// - include a link on the year as well
+// - remove the powered by note
+// hacked by Arne Johannessen 2009-11-07:
+// - fixed loop at 'get number of posts by month', which carped lots of NOTICES
+
+// NB: the GPL doesn't require retaining the 'powered-by' note, so we're free to remove it and re-distribute te result as GPL
+
+
+
 /* main function */
 function bhCalendarchives($display = 'num'){
 	global $wpdb;
@@ -87,8 +97,13 @@ function bhCalendarchives($display = 'num'){
 				GROUP BY YEAR(post_date), MONTH(post_date)";
 	$num_posts = $wpdb->get_results($wpdb->prepare($query), ARRAY_A);
 
-	for ( $x = 0; $x <= count($num_posts); $x++ ){
-		$num_posts_this_month[$num_posts[$x]['YEAR(post_date)']][$num_posts[$x]['MONTH(post_date)']] = $num_posts[$x]['COUNT(*)'];
+	$num_posts_this_year = array();
+	$num_posts_this_month = array();
+	foreach ( $num_posts as $month_result ){
+		if ( !array_key_exists($month_result['YEAR(post_date)'], $num_posts_this_year) )
+			$num_posts_this_year[$month_result['YEAR(post_date)']] = 0;
+		$num_posts_this_year[$month_result['YEAR(post_date)']] += $month_result['COUNT(*)'];
+		$num_posts_this_month[$month_result['YEAR(post_date)']][$month_result['MONTH(post_date)']] = $month_result['COUNT(*)'];
 	}
 
 ?>
@@ -101,7 +116,7 @@ function bhCalendarchives($display = 'num'){
 	foreach ( $years as $year ){
 ?>
 		<tr>
-			<th scope="row"><?php echo $year; ?></th>
+			<th scope="row"><a href="<?php echo get_year_link($year); ?>" title="<?php printf(__('%1$s %2$s in %3$s', 'bhCalendarchives'), $num_posts_this_year[$year], ($num_posts_this_year[$year] > 1) ? __('posts', 'bhCalendarchives') : __('post', 'bhCalendarchives'), $year) ?>"><?php echo $year; ?></a>  –</th>
 <?php
 	 $months = $wpdb->get_col("SELECT DISTINCT MONTH(post_date) FROM $wpdb->posts WHERE post_status = 'publish' AND post_type = 'post' AND YEAR(post_date) = '".$year."' ORDER BY post_date ASC");
 	 
@@ -125,7 +140,7 @@ function bhCalendarchives($display = 'num'){
 ?>
 	</tbody>
 </table>
-<p id="bhCalendarchives-sig">Calendarchives powered by <a href="http://blog.burninghat.net/" title="burningHat">burningHat</a></p>
+<?php # <p id="bhCalendarchives-sig">Calendarchives powered by <a href="http://blog.burninghat.net/" title="burningHat">burningHat</a></p> ?>
 <?php
 }
 
