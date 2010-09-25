@@ -30,8 +30,10 @@ Copyright 2008  Emmanuel Ostertag alias burningHat (email : webmaster _at_ burni
 // - remove the powered by note
 // hacked by Arne Johannessen 2009-11-07:
 // - fixed loop at 'get number of posts by month', which carped lots of NOTICES
+// hacked by Arne Johannessen 2010-09-25:
+// - changed call to deprecated function unregister_widget_control to wp_unregister_widget_control (which carped a NOTICE)
 
-// NB: the GPL doesn't require retaining the 'powered-by' note, so we're free to remove it and re-distribute te result as GPL
+// NB: the GPL doesn't require retaining the 'powered-by' note, so we're free to remove it and re-distribute the result as GPL
 
 
 
@@ -217,7 +219,7 @@ function bhCalendarchives_widget_init(){
 		$widget_ops = array('classname' => 'widget_bhcalendarchives', 'description' => __( "A nicely table to display your monthly archive of your blog's posts") );
 		wp_register_sidebar_widget('archives', __('Archives', 'bhCalendarchives'), 'bhCalendarchives_widget', $widget_ops);
 		//wp_register_widget_control('archives', __('Archives'), 'wp_widget_archives_control' );
-		unregister_widget_control('archives');
+		wp_unregister_widget_control('archives');
 		wp_register_widget_control('archives', __('Archives', 'bhCalendarchives'), 'bhCalendarchives_widget_control');
 	}
 	// Launch widget
