@@ -32,6 +32,8 @@ Copyright 2008  Emmanuel Ostertag alias burningHat (email : webmaster _at_ burni
 // - fixed loop at 'get number of posts by month', which carped lots of NOTICES
 // hacked by Arne Johannessen 2010-09-25:
 // - changed call to deprecated function unregister_widget_control to wp_unregister_widget_control (which carped a NOTICE)
+// hacked by Arne Johannessen 2010-10-03:
+// - fixed 'bhCalendarchives_deactivate', which carped some NOTICEs
 
 // NB: the GPL doesn't require retaining the 'powered-by' note, so we're free to remove it and re-distribute the result as GPL
 
@@ -247,9 +249,9 @@ add_action('widgets_init', 'bhCalendarchives_widget_init');
 function bhCalendarchives_deactivate(){
 	$options = get_option('widget_archives');
 	
-	$newoptions['count'] = $options['count'];
-	$newoptions['dropdown'] = $options['dropdown'];
-	$newoptions['title'] = $options['title'];
+	$newoptions['count'] = array_key_exists('count', $options) ? $options['count'] : '';
+	$newoptions['dropdown'] = array_key_exists('dropdown', $options) ? $options['dropdown'] : '';
+	$newoptions['title'] = array_key_exists('title', $options) ? $options['title'] : '';
 	update_option('widget_archives', $newoptions);
 }
 
