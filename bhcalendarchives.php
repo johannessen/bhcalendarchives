@@ -34,6 +34,8 @@ Copyright 2008  Emmanuel Ostertag alias burningHat (email : webmaster _at_ burni
 // - changed call to deprecated function unregister_widget_control to wp_unregister_widget_control (which carped a NOTICE)
 // hacked by Arne Johannessen 2010-10-03:
 // - fixed 'bhCalendarchives_deactivate', which carped some NOTICEs
+// hacked by Arne Johannessen 2016-08-05:
+// - removed unneccesary wpdb::prepare() call, which littered the error log with warnings
 
 // NB: the GPL doesn't require retaining the 'powered-by' note, so we're free to remove it and re-distribute the result as GPL
 
@@ -99,7 +101,7 @@ function bhCalendarchives($display = 'num'){
 				FROM {$wpdb->posts}
 				WHERE post_type = 'post' AND post_status = 'publish'
 				GROUP BY YEAR(post_date), MONTH(post_date)";
-	$num_posts = $wpdb->get_results($wpdb->prepare($query), ARRAY_A);
+	$num_posts = $wpdb->get_results($query, ARRAY_A);
 
 	$num_posts_this_year = array();
 	$num_posts_this_month = array();
